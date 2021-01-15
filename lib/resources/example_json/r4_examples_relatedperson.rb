@@ -809,6 +809,16 @@ module Cerner
         'op': 'replace',
         'path': '/name/0/family',
         'value': 'Potter'
+      },
+      {
+        'op': 'test',
+        'path': '/name/0/id',
+        'value': 'CI-12782404-0'
+      },
+      {
+        'op': 'replace',
+        'path': '/name/0/given',
+        'value': %w[Neil Rick],
       }
     ].freeze
   end
