@@ -818,7 +818,7 @@ module Cerner
       {
         'op': 'replace',
         'path': '/name/0/given',
-        'value': %w[Neil Rick],
+        'value': %w[Neil Rick]
       }
     ].freeze
   end
