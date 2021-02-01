@@ -809,6 +809,11 @@ module Cerner
         'op': 'replace',
         'path': '/name/0/family',
         'value': 'Potter'
+      },
+      {
+        'path': '/name/0/suffix',
+        'op': 'replace',
+        'value': ["Jr."]
       }
     ].freeze
   end
