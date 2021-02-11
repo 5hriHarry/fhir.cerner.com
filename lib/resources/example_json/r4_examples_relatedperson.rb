@@ -1384,7 +1384,7 @@ module Cerner
       {
         'path': '/name/0/prefix',
         'op': 'replace',
-        'value': ["Mr."]
+        'value': ['Mr.']
       }
     ].freeze
   end
