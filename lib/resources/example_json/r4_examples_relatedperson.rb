@@ -813,7 +813,7 @@ module Cerner
       {
         'path': '/name/0/suffix',
         'op': 'replace',
-        'value': ["Jr."]
+        'value': ['Jr.']
       }
     ].freeze
   end
