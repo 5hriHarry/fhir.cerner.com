@@ -811,8 +811,8 @@ module Cerner
         'value': 'Potter'
       },
       {
-        'path': '/name/0/suffix',
         'op': 'replace',
+        'path': '/name/0/suffix',
         'value': ['Jr.']
       }
     ].freeze
